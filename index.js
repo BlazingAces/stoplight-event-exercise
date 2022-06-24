@@ -97,10 +97,6 @@ stopButton.addEventListener('click', () => {                  // element.addEven
   redLight++;                                                 // Increment is needed to change the value of redLight from even to odd. Without it, the light will never change.
 });
 
-  // stopButton.addEventListener('click', () => {
-  //     console.log()
-  //   });
-
     stopButton.addEventListener('mouseEnter', () => {
       console.log("Entered <textContent> button")
     });
@@ -117,6 +113,7 @@ slowButton.addEventListener('click', () => {
         slowLight.style.backgroundColor = 'black'
           console.log('Bulb off');
       }
+          yellowLight++;
 });
 
     slowButton.addEventListener('mouseenter', () => {
@@ -135,6 +132,7 @@ goButton.addEventListener('click', () => {
           goLight.style.backgroundColor = 'black'
             console.log('Bulb off');
           }
+            greenLight++;
     });
 
     goButton.addEventListener('mouseenter', () => {
